@@ -17,10 +17,19 @@ title: "Reprograma -> Fórmula Mágia da Paz - Projeto Final",
 version: "1.0.0",
 mensagem: "Bem-vindo ao meu projeto final!"
 
-
 })
 
 })
+
+const studentsRoutes = require("./routes/studentsRoter");
+const userRoutes = require("../src/routes/userRouter");
+const sportsRoutes = require("../src/routes/sportsRouter");
+
+
+app.use ("/aluno", studentsRoutes);
+app.use("/usuario", userRoutes);
+app.use("/esporte", sportsRoutes);
+
 
 db.connect();
 ///app.use("/alunos", rotasAlunos);
