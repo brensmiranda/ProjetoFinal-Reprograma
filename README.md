@@ -107,6 +107,35 @@ PROJETO_FINAL   |
    
    ```
 
+div id='aplicacao'/>
+
+ ## Utilização da API
+ ### 1º Passo - Clonar o respositório
+Clone este projeto para a sua máquina local.
+```sh
+git clone https://github.com/brensmiranda/ProjetoFinal-Reprograma
+```
+
+### 2º Passo - Instalar as dependências
+Para instalar as dependências do projeto, digite o comando no terminal:
+```
+npm install
+```
+
+### 3º Passo - Configurar o ambiente
+Para configurar o ambiente é necessário duplicar o arquivo `.env.example` e renomea-lo somente para `.env`.</br>
+Em seguida, altere as informações contidas no arquivo `.env` para as informações correspondentes a sua máquina e e inclua os valores para PORT com a porta, MONGO_URI com a URL do MongoDb e SECRET com o secret.
+
+### 4º Passo - Executar a aplicação
+Com a aplicação clonada e as dependências configuradas basta rodar a aplicação com o comando no terminal:
+```sh
+npm start
+```
+
+Para acessar via Heroku, acesse: https://formula-magica-da-paz.herokuapp.com/
+
+
+
 <br>
    # ⚙️ **Funcionalidades**
 
